@@ -1,4 +1,4 @@
-# Cloning the instagram web homepage on mobile using TailwindCSS
+# Cloning the mobile instagram web homepage using TailwindCSS
 
 Simple instagram homepage
 

@@ -560,10 +560,6 @@ video {
   margin-bottom: 1.25rem;
 }
 
-.mb-1 {
-  margin-bottom: 0.25rem;
-}
-
 .flex {
   display: flex;
 }
@@ -572,36 +568,20 @@ video {
   height: 1.25rem;
 }
 
-.h-14 {
-  height: 3.5rem;
-}
-
-.h-6 {
-  height: 1.5rem;
-}
-
-.h-\[5\.5rem\] {
-  height: 5.5rem;
-}
-
-.h-\[58px\] {
-  height: 58px;
-}
-
-.h-\[56px\] {
-  height: 56px;
-}
-
 .h-\[60px\] {
   height: 60px;
+}
+
+.h-14 {
+  height: 3.5rem;
 }
 
 .h-\[28px\] {
   height: 28px;
 }
 
-.w-1\/2 {
-  width: 50%;
+.h-6 {
+  height: 1.5rem;
 }
 
 .w-full {
@@ -612,36 +592,28 @@ video {
   width: 1.25rem;
 }
 
-.w-14 {
-  width: 3.5rem;
-}
-
-.w-6 {
-  width: 1.5rem;
-}
-
-.w-\[5\.5rem\] {
-  width: 5.5rem;
-}
-
-.w-\[58px\] {
-  width: 58px;
-}
-
 .w-\[60px\] {
   width: 60px;
 }
 
-.w-\[56px\] {
-  width: 56px;
+.w-14 {
+  width: 3.5rem;
 }
 
 .w-\[28px\] {
   width: 28px;
 }
 
+.w-6 {
+  width: 1.5rem;
+}
+
 .flex-grow {
   flex-grow: 1;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
 
 .items-center {
@@ -664,16 +636,6 @@ video {
 
 .border-2 {
   border-width: 2px;
-}
-
-.border-pink-600 {
-  --tw-border-opacity: 1;
-  border-color: rgb(219 39 119 / var(--tw-border-opacity));
-}
-
-.bg-pink-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(236 72 153 / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-tr {
@@ -702,44 +664,16 @@ video {
   padding: 0.75rem;
 }
 
-.p-1 {
-  padding: 0.25rem;
-}
-
-.pb-1 {
-  padding-bottom: 0.25rem;
-}
-
-.pb-2 {
-  padding-bottom: 0.5rem;
-}
-
-.pl-2 {
-  padding-left: 0.5rem;
-}
-
-.pl-1 {
-  padding-left: 0.25rem;
-}
-
 .pl-0\.5 {
   padding-left: 0.125rem;
 }
 
-.pl-0 {
-  padding-left: 0px;
-}
-
-.pb-0\.5 {
-  padding-bottom: 0.125rem;
-}
-
-.pb-0 {
-  padding-bottom: 0px;
-}
-
 .pt-0\.5 {
   padding-top: 0.125rem;
+}
+
+.pl-0 {
+  padding-left: 0px;
 }
 
 .pt-0 {
@@ -756,11 +690,15 @@ video {
 }
 
 .h1 {
-  font-family: 'BillabongW00-Regular';
+  font-family: 'Billabong', sans-serif;
   font-size: 1.5rem;
 }
 
 @media (min-width: 640px) {
+  .sm\:w-1\/2 {
+    width: 50%;
+  }
+
   .sm\:max-w-md {
     max-width: 28rem;
   }
